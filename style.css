@@ -1,0 +1,24 @@
+.icon{
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    margin: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.icon:hover{
+    opacity: 0.7;
+
+}
+#intro{
+    margin-top: 2em;
+}
+.project{
+    margin-top: 1em;
+    background-color: red;
+}
+.intercept{
+    background-color: #f0f0f0;
+    margin: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

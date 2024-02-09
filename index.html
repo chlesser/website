@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="style.css">
     <title>Charles Lesser</title>
 </head>
 <body>
@@ -13,65 +14,70 @@
     <div class="container">
 
     <!-- columns should be the immediate child of a .row -->
-    <div class="row">
+    <div class="row" id = "intro">
       <div class="twelve columns">
-
         <h1>Charles Lesser</h1>
-        <p>Hi! Welcome to the thunderdome!</p>
-        <p>Here's a download link of my resume!</p>
-        <p>LinkedIn</p>
-
+        <p>Hello! I'm an undergraduate studying Computer Science Game Design at UC Santa Cruz. I'm specializing in game design, and Unity based development. Currently, I am a research assistant at the <a href="https://setlab.soe.ucsc.edu">Social Emotional Technology Lab</a> where I prototype novel VR interfaces.</p>
+        <a href="./Charles-Lesser-Resume-February-2024.pdf" class=""><img class="icon" src="./scroll-quill.svg"></a>
+        <a href="link-to-linkedIn" class=""><img class="icon" src=".linkedIn-icon.svg"></a>
       </div>
     </div>
     <div class="row">
       <div class="twelve columns">
-
-        <h1>Untitled</h1>
-        <p>I helped develop _____ _____ at the UCSC SET lab</p>
-
+        <h1>Projects</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="twelve columns">
-
-        <h1>Ghili Suit</h1>
-        <p>Made for the UCSC 2024 Computational Media Game Jam</p>
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="twelve columns">
-
-        <h1>Tavernkeep</h1>
-        <p>Text-based Twine game originally made for college, but evolved into a project I'm very proud of!</p>
-
-      </div>
-    </div>
-    <div class="row">
-      <h1>The "Islands" Series</h1>
-      <p>My tool for learning new systems - I create the next installment in this simple series when I want to learn a new system. It doubles as a joke and a project-based learning tool where I create the same game in different engines. It is also abandoned once I feel comfortable with the system, so most are unfinished.</p>
+    <div class="row project">
       <div class="two columns">
-        <h2>Islands</h2>
-        <p>Language: Java</p>
-        <p>Year: 2019</p>
+        <img class="thumbnail" src="ghili-thumbnail.jpg">
       </div>
-      <div class = "three columns">
-        <h2>Islands 2</h2>
-        <p>Engine: Unity</p>
-        <p>Year: 2021</p>
-      </div>
-      <div class = "three columns">
-        <h2>Islands VR</h2>
-        <p>Engine: Unity - Photon Multiplayer and Oculus VR</p>
-        <p>Year: In Progress</p>
-      </div>
-      <div class = "three columns">
-        <h2>Islands 3</h2>
-        <p>Engine: Unreal</p>
-        <p>Year: In Progress</p>
+      <div class="ten columns">
+        <h3>Ghili Suit (2024)</h3>
+        <p>Made for the UCSC 2024 Computational Media Game Jam</p>
       </div>
     </div>
-  </div>
+    <div class="row project">
+      <div class="two columns">
+        <img class="thumbnail" src="tavern-thumbnail.jpg">
+      </div>
+      <div class="ten columns">
+        <h3>Tavernkeep (2024)</h3>
+        <p>Text-based Twine game originally made for college</p>
+      </div>
+    </div>
+    <div class="row intercept">
+      <div class="twelve columns">
+        <h2>The "Islands" Series</h2>
+        <p>My tool for learning new systems - I create the next installment in this simple series when I want to learn a new system. It doubles as a joke and a project-based learning tool where I create the same game in different engines. It is also abandoned once I feel comfortable with the system, so most are unfinished.</p>
+      </div>
+    </div>
+    <div class="row project">
+      <div class="two columns">
+        <img class="thumbnail" src="islands-unity-thumbnail.jpg">
+      </div>
+      <div class="ten columns">
+        <h3>Islands VR (2023)</h3>
+       <p>Made in Unity, VR adaptation with photon multiplayer support</p>
+      </div>
+    </div>
+    <div class="row project">
+      <div class="two columns">
+        <img class="thumbnail" src="islands-unity-thumbnail.jpg">
+      </div>
+      <div class="ten columns">
+        <h3>Islands 2 (2021)</h3>
+        <p>Made in Unity, button-based survival game with graphics</p>
+      </div>
+    </div>
+    <div class="row project">
+      <div class="two columns">
+        <img class="thumbnail" src="islands-unity-thumbnail.jpg">
+      </div>
+      <div class="ten columns">
+        <h3>Islands (2019)</h3>
+        <p>Made in Java, text based survival game</p>
+      </div>
+    </div>
 </div>
 </body>
 </html>
