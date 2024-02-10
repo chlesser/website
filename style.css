@@ -15,10 +15,14 @@
 }
 .project{
     margin-top: 1em;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
 .intercept{
     background-color: #f0f0f0;
     margin: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.thumbnail{
+    width: 150px;
+    height: 150px;
 }
