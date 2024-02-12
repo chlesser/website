@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
 .icon{
     width: 100px;
     height: 100px;
@@ -14,13 +18,16 @@
     margin-top: 2em;
 }
 .project{
-    margin-top: 1em;
+    margin-top: 2em;
     background-color: rgb(255, 255, 255);
 }
 .intercept{
     background-color: #f0f0f0;
     margin: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #000000;
+    padding-top: 1em;
+    margin-top: 3em;
 }
 .thumbnail{
     width: 150px;
