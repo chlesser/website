@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6{
 .icon{
     width: 100px;
     height: 100px;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     border-radius: 60%;
     margin: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,10 +19,10 @@ h1, h2, h3, h4, h5, h6{
 }
 .project{
     margin-top: 2em;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 }
 .intercept{
-    background-color: #f0f0f0;
+    background-color: #f0f0f000;
     margin: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-top: 1px solid #000000;
@@ -30,10 +30,20 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 3em;
 }
 .thumbnail{
-    width: 150px;
-    height: 150px;
+    /* max-width: 150px;
+    height: 150px; */
+    max-width: 100%;
 }
-html
-{
-    background: #ffffff;
+canvas{
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    outline: none;
+}
+main{
+    z-index: 1;
+    width: 100vw;
+    /* height: 100vh; */
+    background: transparent;
 }
