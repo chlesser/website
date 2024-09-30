@@ -31,7 +31,7 @@ const scene = new THREE.Scene()
  * Test cube
  */
 const textureLoader = new THREE.TextureLoader()
-const gradientTexture = textureLoader.load('/textures/gradients/3.jpg')
+const gradientTexture = textureLoader.load('/gradients/3.jpg')
 gradientTexture.magFilter = THREE.NearestFilter
 
 const material = new THREE.MeshToonMaterial({
